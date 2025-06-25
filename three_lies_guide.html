@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Lies Modern Men Are Told (And the Truth That Sets You Free)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0.75in;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            padding: 0;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #8e44ad;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.4em;
+            margin: 0;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+        
+        .header .subtitle {
+            color: #8e44ad;
+            font-size: 1.3em;
+            margin: 15px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .intro {
+            background: linear-gradient(135deg, #8e44ad 0%, #663399 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .intro h2 {
+            margin: 0 0 15px 0;
+            font-size: 1.6em;
+        }
+        
+        .intro p {
+            font-size: 1.1em;
+            margin: 0;
+            opacity: 0.95;
+        }
+        
+        .reality-check {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .reality-check h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        .lie-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            border: 2px solid #f3e5f5;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #fdfefe 0%, #f8f9fa 100%);
+            position: relative;
+        }
+        
+        .lie-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #e74c3c, #c0392b);
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .lie-number {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+        }
+        
+        .lie-title {
+            color: #e74c3c;
+            font-size: 1.7em;
+            font-weight: bold;
+            margin: 0 0 20px 0;
+        }
+        
+        .lie-content {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        .the-lie {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #e74c3c;
+        }
+        
+        .the-lie h4 {
+            color: #c0392b;
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .the-truth {
+            background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #27ae60;
+        }
+        
+        .the-truth h4 {
+            color: #229954;
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .why-it-matters {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #f39c12;
+        }
+        
+        .why-it-matters h4 {
+            color: #e67e22;
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .modern-reality {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .modern-reality h4 {
+            margin: 0 0 15px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .what-women-want {
+            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .what-women-want h4 {
+            margin: 0 0 15px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .action-plan {
+            background: linear-gradient(135deg, #00cec9 0%, #55a3ff 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        
+        .action-plan h4 {
+            margin: 0 0 15px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .action-plan ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .action-plan li {
+            margin: 8px 0;
+        }
+        
+        .confusion-box {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .confusion-box h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        .truth-pillars {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+            border: 2px solid #dee2e6;
+        }
+        
+        .truth-pillars h3 {
+            color: #2c3e50;
+            margin: 0 0 25px 0;
+            font-size: 1.4em;
+            text-align: center;
+        }
+        
+        .pillar {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #8e44ad;
+        }
+        
+        .pillar h4 {
+            color: #8e44ad;
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+        }
+        
+        .vs-comparison {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 20px;
+            align-items: center;
+            margin: 25px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .confused-man, .awakened-man {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .confused-man {
+            background: rgba(231, 76, 60, 0.1);
+            border: 2px solid rgba(231, 76, 60, 0.3);
+        }
+        
+        .awakened-man {
+            background: rgba(46, 204, 113, 0.1);
+            border: 2px solid rgba(46, 204, 113, 0.3);
+        }
+        
+        .vs {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #8e44ad 0%, #663399 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 50px 0 30px 0;
+        }
+        
+        .cta-section h2 {
+            margin: 0 0 20px 0;
+            font-size: 1.8em;
+        }
+        
+        .cta-highlight {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .cta-highlight a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            border-top: 1px solid #ecf0f1;
+        }
+        
+        @media print {
+            body { font-size: 12pt; }
+            .lie-section { page-break-inside: avoid; }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 2em;
+            }
+            .vs-comparison {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            .vs {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>3 Lies Modern Men Are Told</h1>
+            <div class="subtitle">(And the Truth That Sets You Free)</div>
+        </div>
+
+        <div class="intro">
+            <h2>🔥 Time for Some Real Talk</h2>
+            <p>Fellas, I get it. Times are changing fast and it's all so confusing. The dating advice you've been getting is outdated, and it's keeping you stuck. Here's the truth about what actually works in 2025.</p>
+        </div>
+
+        <div class="reality-check">
+            <h3>⚡ Wake Up Call</h3>
+            <p>The old playbook doesn't work anymore. Women make their own money and in many cases their own muscles. So what else you got? It's time to separate yourself from the confused masses.</p>
+        </div>
+
+        <div class="lie-section">
+            <div class="lie-number">1</div>
+            <h3 class="lie-title">LIE: "Get Your Body and Bank Account Right, and It's Raining"</h3>
+            
+            <div class="lie-content">
+                This is the biggest lie sold to modern men. You've been told that if you just get jacked enough and make enough money, women will be throwing themselves at you. Here's why that's complete BS in 2025.
+            </div>
+
+            <div class="the-lie">
+                <h4>❌ The Lie</h4>
+                <p>"Just get ripped, get rich, and women will chase you. Money and muscles are all you need to succeed with women."</p>
+            </div>
+
+            <div class="the-truth">
+                <h4>✅ The Truth</h4>
+                <p>Women today make their own money and build their own bodies. Physical fitness and financial success are table stakes, not game changers. They're necessary but not sufficient.</p>
+            </div>
+
+            <div class="modern-reality">
+                <h4>🌍 Modern Reality Check</h4>
+                <p>Today's women are CEOs, entrepreneurs, athletes, and high achievers. They don't need your money or your muscles to feel secure. They need something deeper—character, emotional intelligence, and genuine masculine presence.</p>
+            </div>
+
+            <div class="what-women-want">
+                <h4>💭 What Women Actually Want</h4>
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li><strong>Strong Character:</strong> Integrity, reliability, moral compass</li>
+                    <li><strong>Solid Family Values:</strong> Someone who can build something meaningful</li>
+                    <li><strong>Self-Awareness:</strong> Emotional intelligence and personal growth</li>
+                    <li><strong>Protector & Provider Mindset:</strong> Not just financially, but emotionally and spiritually</li>
+                </ul>
+            </div>
+
+            <div class="why-it-matters">
+                <h4>🎯 Why This Matters</h4>
+                <p>If you're only focused on money and muscles, you're competing in a crowded marketplace where you're just another gym bro with a nice car. Develop depth, and you become irreplaceable.</p>
+            </div>
+        </div>
+
+        <div class="lie-section">
+            <div class="lie-number">2</div>
+            <h3 class="lie-title">LIE: "Dad Bods Are Attractive"</h3>
+            
+            <div class="lie-content">
+                Society told you it's okay to let yourself go because "dad bods are hot now." This lie is keeping you weak and unattractive. Here's the brutal truth about what that dad bod really signals.
+            </div>
+
+            <div class="the-lie">
+                <h4>❌ The Lie</h4>
+                <p>"Women love dad bods! You don't need to be in shape. Just be comfortable with yourself and women will find you attractive."</p>
+            </div>
+
+            <div class="the-truth">
+                <h4>✅ The Truth</h4>
+                <p>Dad bods don't signal comfort—they signal that you've given up. Women want a man who takes care of himself because it shows he can take care of other things too.</p>
+            </div>
+
+            <div class="modern-reality">
+                <h4>🌍 What Your Body Really Communicates</h4>
+                <p>Your physical condition is a direct reflection of your discipline, self-respect, and ability to follow through on commitments. If you can't commit to taking care of your own body, why would she trust you to take care of her, a family, or any other important responsibilities?</p>
+            </div>
+
+            <div class="action-plan">
+                <h4>🚀 The Real Standard</h4>
+                <ul>
+                    <li>You don't need to be a bodybuilder, but you need to be fit</li>
+                    <li>Your body should show you respect yourself</li>
+                    <li>Fitness demonstrates discipline and commitment</li>
+                    <li>Physical strength often correlates with mental strength</li>
+                    <li>Being in shape shows you can handle life's challenges</li>
+                </ul>
+            </div>
+
+            <div class="why-it-matters">
+                <h4>🎯 Why This Matters</h4>
+                <p>When you're in good shape, you're not just more physically attractive—you're demonstrating the character traits women actually want: discipline, self-respect, and the ability to commit to difficult things.</p>
+            </div>
+        </div>
+
+        <div class="lie-section">
+            <div class="lie-number">3</div>
+            <h3 class="lie-title">LIE: "Admitting You're Attracted to Her Is Creepy"</h3>
+            
+            <div class="lie-content">
+                You've been taught to hide your sexual interest, to be the "nice guy" who pretends he just wants friendship. This is killing your dating life. Here's why honesty about attraction is actually attractive.
+            </div>
+
+            <div class="the-lie">
+                <h4>❌ The Lie</h4>
+                <p>"Never let her know you're attracted to her. Be her friend first. Don't make your intentions clear—it's creepy and pushy."</p>
+            </div>
+
+            <div class="the-truth">
+                <h4>✅ The Truth</h4>
+                <p>What's actually creepy is disguising your sexual interest when she can sniff it out anyway. Honest attraction is refreshing; fake friendship with hidden motives is manipulative.</p>
+            </div>
+
+            <div class="modern-reality">
+                <h4>🌍 Why Honesty Wins</h4>
+                <p>Women have incredible intuition. She already knows you're attracted to her. When you pretend otherwise, you're being dishonest, and that feels manipulative. When you're upfront about your interest, you're being authentic—and authenticity is attractive.</p>
+            </div>
+
+            <div class="action-plan">
+                <h4>🚀 How to Show Interest Correctly</h4>
+                <ul>
+                    <li>Be direct but respectful about your romantic interest</li>
+                    <li>Don't pretend to want friendship when you want more</li>
+                    <li>Make your intentions clear early, not after months of "friendship"</li>
+                    <li>Accept her response gracefully, whether it's yes or no</li>
+                    <li>Understand that clarity is a gift, not a burden</li>
+                </ul>
+            </div>
+
+            <div class="why-it-matters">
+                <h4>🎯 Why This Matters</h4>
+                <p>When you're honest about your attraction, you eliminate the friend zone, save everyone time, and demonstrate the confidence that comes from knowing what you want and being willing to go after it.</p>
+            </div>
+        </div>
+
+        <div class="confusion-box">
+            <h3>🌪️ The Confusion Is Real</h3>
+            <p>I get it—times are changing fast and it's all so confusing. The old rules don't work, but nobody's teaching you the new ones. You're getting advice from people who are just as lost as you are.</p>
+            <p style="margin-top: 15px; font-weight: bold;">But here's the good news: The men who figure this out first will have a massive advantage.</p>
+        </div>
+
+        <div class="vs-comparison">
+            <div class="confused-man">
+                <h4 style="color: #e74c3c; margin: 0 0 15px 0;">😵‍💫 The Confused Man</h4>
+                <p style="margin: 0; color: #2c3e50; font-size: 0.95em;">Believes outdated advice, focuses only on money/muscles, hides his intentions, gets friend-zoned repeatedly</p>
+            </div>
+            <div class="vs">VS</div>
+            <div class="awakened-man">
+                <h4 style="color: #27ae60; margin: 0 0 15px 0;">🔥 The Awakened Man</h4>
+                <p style="margin: 0; color: #2c3e50; font-size: 0.95em;">Understands modern dynamics, builds character + fitness, shows honest interest, attracts quality women</p>
+            </div>
+        </div>
+
+        <div class="truth-pillars">
+            <h3>🏛️ The 4 Pillars of Modern Masculine Attraction</h3>
+            
+            <div class="pillar">
+                <h4>1. Character Over Cash</h4>
+                <p>Integrity, values, and moral strength matter more than your bank account balance.</p>
+            </div>
+            
+            <div class="pillar">
+                <h4>2. Discipline Over Dad Bod</h4>
+                <p>Physical fitness demonstrates the self-respect and discipline she wants in a partner.</p>
+            </div>
+            
+            <div class="pillar">
+                <h4>3. Honesty Over Hidden Agendas</h4>
+                <p>Clear, respectful communication about your intentions beats fake friendship every time.</p>
+            </div>
+            
+            <div class="pillar">
+                <h4>4. Emotional Intelligence Over Everything</h4>
+                <p>Understanding yourself and others is the ultimate attractive quality in the modern world.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Ready to Separate Yourself From the Confused Masses?</h2>
+            <p>These three lies are just the beginning. There's a complete step-by-step system for navigating modern dating and becoming the man women actually want.</p>
+            
+            <div class="cta-highlight">
+                <a href="https://v3nhti7cf7p.typeform.com/to/X5Q11U0a">
+                    Schedule Your Free Truth Strategy Call
+                </a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.95em; opacity: 0.9;">
+                Let's cut through the confusion and create a clear path to becoming irresistibly attractive in the modern world.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>Remember: The world is full of confused men following outdated advice. Be the one who sees clearly and acts accordingly. Your future self will thank you.</p>
+        </div>
+    </div>
+</body>
+</html>
